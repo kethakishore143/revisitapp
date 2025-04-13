@@ -1,0 +1,53 @@
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 5px;
+    background-color: lightgrey;
+  }
+  
+  .nav-items {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .nav-items li {
+    list-style-type: none;
+    
+    padding: 20px;
+  }
+
+  .link-item {
+    text-decoration: none;
+  }
+
+  .cartimg-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .cart-img {
+    height: 60px;
+    width: 120px;
+  }
+
+  .fastcart{
+    font-style: italic;
+    font-weight: bold;
+    padding: 10px;
+    padding-right: 20px;
+
+  }
+
+  .profilename {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .searchicon {
+    margin: 5px;
+  }

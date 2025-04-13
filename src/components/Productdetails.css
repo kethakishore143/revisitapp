@@ -1,0 +1,98 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  
+  .product-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .img-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fefefe;
+    border: 1px solid #eee;
+    padding: 1rem;
+    border-radius: 12px;
+    transition: transform 0.2s ease;
+  }
+  
+  .img-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .images1 {
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+  }
+  
+  .img-card p {
+    margin-bottom: 0.8rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+    text-align: center;
+  }
+  
+  .img-card p:first-of-type {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #1e88e5;
+  }
+  
+  button {
+    padding: 0.6rem 1.4rem;
+    background-color: #1e88e5;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #1565c0;
+  }
+  
+  @media (max-width: 520px) {
+    .product-container {
+      padding: 1rem;
+    }
+  
+    .images1 {
+      height: 200px;
+    }
+  
+    .img-card p {
+      font-size: 0.95rem;
+    }
+  
+    button {
+      width: 100%;
+      max-width: 250px;
+      margin-top: 1rem;
+    }
+  }
+  
