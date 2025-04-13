@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/revisitapp/static/css/main.75937c9d.css",
-    "main.js": "/revisitapp/static/js/main.4fd3ef8d.js",
+    "main.js": "/revisitapp/static/js/main.2ef6b3d5.js",
     "static/js/453.77d3c6c3.chunk.js": "/revisitapp/static/js/453.77d3c6c3.chunk.js",
     "index.html": "/revisitapp/index.html",
     "main.75937c9d.css.map": "/revisitapp/static/css/main.75937c9d.css.map",
-    "main.4fd3ef8d.js.map": "/revisitapp/static/js/main.4fd3ef8d.js.map",
+    "main.2ef6b3d5.js.map": "/revisitapp/static/js/main.2ef6b3d5.js.map",
     "453.77d3c6c3.chunk.js.map": "/revisitapp/static/js/453.77d3c6c3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.75937c9d.css",
-    "static/js/main.4fd3ef8d.js"
+    "static/js/main.2ef6b3d5.js"
   ]
 }
