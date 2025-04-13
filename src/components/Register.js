@@ -33,8 +33,9 @@ const Register = () => {
                 <input type='email'onChange={changeHandler} name ="email"   placeholder='Enter EmailID' autoComplete='off'/><br/>
                 <input type='password'onChange={changeHandler} name ="password"   placeholder='Enter Password' autoComplete='off'/><br/>
                 <input type='password' onChange={changeHandler} name ="confirmpassword"   placeholder='Enter Confirm Password' autoComplete='off'/><br/>
-                <Link to="/login">
                 <input type='submit' value='Register'/><br/>
+                <Link to="/login">
+                  <p>click to login</p>
                 </Link>
             </form>
         </center>

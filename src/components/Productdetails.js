@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom"; 
+import { Link } from "react-router-dom";
 
 
 import "./Productdetails.css";
@@ -49,7 +50,14 @@ const Productdetails = () => {
           <p>Category: {category}</p>
           <p>{description}</p>
           <button type="button">Add to cart</button>
+          <div>
+          <Link to="/allproducts">
+          <button>Back to all products</button>
+          </Link>
+          </div>
+         
         </div>
+       
       </div>
     );
   };
